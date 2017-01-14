@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# A shell script to copy source directories into a destiny directory and then zip the destiny directory.
+# Go to the directory containing the file
+# Run command `chmod +x copyAndZip.sh` to execute. +x means to make script file executable.
+# Finally run the script by command: './copyAndZip.sh foldername'
+
 import sys
 import shutil
 import distutils.dir_util
